@@ -1,0 +1,297 @@
+BODY
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    FONT-SIZE: 10px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 10px 10px 0px;
+    LINE-HEIGHT: 14px;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: "Lucida Grande" , "Trebuchet MS" ,helvetica,arial,sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+#menu
+{
+    BACKGROUND: none transparent scroll repeat 0% 0%;
+    LEFT: 11px;
+    WIDTH: 150px;
+    PADDING-TOP: 25px;
+    POSITION: absolute;
+    TOP: 50px
+}
+#main
+{
+    PADDING-RIGHT: 5px;
+    PADDING-LEFT: 5px;
+    BACKGROUND: #fff;
+    PADDING-BOTTOM: 15px;
+    MARGIN-LEFT: 176px;
+    BORDER-LEFT:  #cccccc 1px solid;
+    WIDTH: 600px;
+    MARGIN-RIGHT: 50px;
+    PADDING-TOP: 25px;
+    POSITION: absolute;
+    TOP: 50px
+}
+#mainoutput
+{
+    PADDING-RIGHT: 5px;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 15px;
+    MARGIN-RIGHT: 50px;
+    PADDING-TOP: 25px;
+    POSITION: absolute;
+    TOP: 50px
+}
+UNKNOWN
+{
+    MARGIN-LEFT: 50px;
+    MARGIN-RIGHT: 176px
+}
+#top
+{
+    BACKGROUND-POSITION: right 50%;
+    BACKGROUND-IMAGE: url(images/net_logo.gif);
+    BACKGROUND-REPEAT: no-repeat;
+    HEIGHT: 40px;
+    BACKGROUND-COLOR: black
+}
+UNKNOWN
+{
+    HEIGHT: 40px
+}
+P.rule
+{
+	background: ffffff;
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: #cccccc 1px solid
+}
+#top H1
+{
+    COLOR: white
+}
+P
+{
+    MARGIN: 0px 10px 10px
+}
+H1
+{
+    MARGIN: 0px 10px 10px
+}
+PRE
+{
+    MARGIN: 0px 10px 10px
+}
+#main P
+{
+    MARGIN: 0px 10px 10px 15px
+}
+H2
+{
+    MARGIN: 0px 10px 10px 15px
+}
+#main H4
+{
+    MARGIN: 0px 10px 10px 20px
+}
+#main H3
+{
+    MARGIN: 0px 10px 10px 15px
+}
+.caption
+{
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 3px;
+    BACKGROUND: #295285;
+    PADDING-BOTTOM: 3px;
+    COLOR: white;
+    PADDING-TOP: 3px
+}
+.space
+{
+    FONT-SIZE: 6px;
+    COLOR: black;
+    LINE-HEIGHT: 12px
+}
+.navigate
+{
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 3px;
+    BACKGROUND: #66c;
+    PADDING-BOTTOM: 3px;
+    COLOR: yellow;
+    PADDING-TOP: 3px
+}
+H1
+{
+    FONT-SIZE: 18px;
+    PADDING-TOP: 0px
+}
+H2
+{
+    FONT-SIZE: 14px;
+    COLOR: #93c;
+    PADDING-TOP: 8px
+}
+H3
+{
+    FONT-SIZE: 12px;
+    COLOR: #f60;
+    PADDING-TOP: 8px
+}
+H4
+{
+    FONT-SIZE: 10px;
+    COLOR: #c69;
+    PADDING-TOP: 8px
+}
+A
+{
+    FONT-WEIGHT: bold;
+    COLOR: #09c;
+    TEXT-DECORATION: none
+}
+.link
+{
+    FONT-WEIGHT: bold;
+    COLOR: #000;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    BORDER-LEFT-COLOR: #09c;
+    BORDER-TOP-COLOR: #09c;
+    BORDER-BOTTOM: #09c 1px dotted;
+    BORDER-RIGHT-COLOR: #09c
+}
+A:active
+{
+    BORDER-LEFT-COLOR: #09c;
+    BORDER-TOP-COLOR: #09c;
+    BORDER-BOTTOM: #09c 1px solid;
+    BORDER-RIGHT-COLOR: #09c
+}
+#rightcontent A
+{
+    FONT-WEIGHT: bold;
+    COLOR: #09c;
+    TEXT-DECORATION: none
+}
+#rightcontent A:hover
+{
+    BORDER-LEFT-COLOR: #09c;
+    BORDER-TOP-COLOR: #09c;
+    BORDER-BOTTOM: #09c 1px dotted;
+    BORDER-RIGHT-COLOR: #09c
+}
+#rightcontent A:active
+{
+    BORDER-LEFT-COLOR: #09c;
+    BORDER-TOP-COLOR: #09c;
+    BORDER-BOTTOM: #09c 1px solid;
+    BORDER-RIGHT-COLOR: #09c
+}
+#top H1
+{
+    PADDING-RIGHT: 10px;
+    PADDING-LEFT: 10px;
+    FONT-SIZE: 22px;
+    PADDING-BOTTOM: 10px;
+    MARGIN: 0px;
+    PADDING-TOP: 10px
+}
+#rightcontent P
+{
+    FONT-SIZE: 10px
+}
+FORM
+{
+    WIDTH: 600px;
+    POSITION: static
+}
+DIV.row
+{
+    CLEAR: both;
+    PADDING-RIGHT: 10px;
+    PADDING-BOTTOM: 15px;
+    PADDING-TOP: 5px
+}
+DIV.row SPAN.label
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    FLOAT: left;
+    WIDTH: 100px;
+    COLOR: #000000;
+    FONT-FAMILY: verdana, arial, sans-serif;
+    TEXT-ALIGN: right
+}
+DIV.row SPAN.formw
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10px;
+    FLOAT: right;
+    WIDTH: 475px;
+    COLOR: #333;
+    FONT-FAMILY: verdana, arial, sans-serif;
+    TEXT-ALIGN: left
+}
+.space
+{
+    HEIGHT: 300px
+}
+.sml_space
+{
+    HEIGHT: 100px
+}
+LABEL
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY: "Lucida Grande" , "Trebuchet MS" ,helvetica,arial,sans-serif
+}
+#breadcrumb
+{
+    MARGIN-LEFT: 0px;
+    BACKGROUND-COLOR: black
+}
+#breadcrumb P
+{
+    COLOR: white
+}
+#rightcontent
+{
+    PADDING-RIGHT: 5px;
+    PADDING-LEFT: 5px;
+    LEFT: 750px;
+    PADDING-BOTTOM: 15px;
+    MARGIN-LEFT: 50px;
+    WIDTH: 100px;
+    PADDING-TOP: 25px;
+    POSITION: absolute;
+    TOP: 50px
+}
+IMG
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none
+}
+TD
+{
+    PADDING-RIGHT: 10px;
+    FONT-SIZE: 10px
+}
+TH
+{
+    PADDING-RIGHT: 10px;
+    FONT-SIZE: 10px
+}
+
+.rule
+{
+    BACKGROUND-COLOR: #9933cc
+}
