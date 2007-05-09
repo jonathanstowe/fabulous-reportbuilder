@@ -1,0 +1,39 @@
+<Project name="ReportBuilder" fileversion="2.0" DefaultNamespace="ReportBuilder" language="C#" clr-version="Net_1_1" ctype="DotNetProject">
+  <Configurations active="Debug">
+    <Configuration name="Debug" ctype="DotNetProjectConfiguration">
+      <Output directory="./bin/" assembly="ReportBuilder" />
+      <Build debugmode="True" target="Library" />
+      <Execution runwithwarnings="False" consolepause="True" runtime="MsNet" clr-version="Net_1_1" />
+      <CodeGeneration compiler="Mcs" warninglevel="4" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" generatexmldocumentation="False" ctype="CSharpCompilerParameters" />
+    </Configuration>
+    <Configuration name="Release" ctype="DotNetProjectConfiguration">
+      <Output directory="./bin/" assembly="ReportBuilder" />
+      <Build debugmode="False" target="Library" />
+      <Execution runwithwarnings="False" consolepause="True" runtime="MsNet" clr-version="Net_1_1" />
+      <CodeGeneration compiler="Mcs" warninglevel="4" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" generatexmldocumentation="False" ctype="CSharpCompilerParameters" />
+    </Configuration>
+  </Configurations>
+  <Contents>
+    <File name="./AssemblyInfo.cs" subtype="Code" buildaction="Compile" />
+    <File name="./css.css" subtype="Code" buildaction="Exclude" />
+    <File name="./Global.asax" subtype="Code" buildaction="Exclude" />
+    <File name="./Global.asax.cs" subtype="Code" buildaction="Compile" dependson="Global.asax" />
+    <File name="./Global.asax.resx" subtype="Code" buildaction="EmbedAsResource" dependson="Global.asax.cs" resource_id="ReportBuilder.Global.asax.resources" />
+    <File name="./report1.xml" subtype="Code" buildaction="Exclude" />
+    <File name="./ReportBuilder.aspx" subtype="Code" buildaction="Exclude" />
+    <File name="./ReportBuilder.aspx.cs" subtype="Code" buildaction="Compile" dependson="ReportBuilder.aspx" />
+    <File name="./ReportBuilder.aspx.resx" subtype="Code" buildaction="EmbedAsResource" dependson="ReportBuilder.aspx.cs" resource_id="ReportBuilder.ReportBuilder.aspx.resources" />
+    <File name="./ReportDefinition.cs" subtype="Code" buildaction="Compile" />
+    <File name="./ReportDefinition.xsd" subtype="Code" buildaction="Exclude" />
+    <File name="./ReportDefinition.xsx" subtype="Code" buildaction="Nothing" dependson="ReportDefinition.xsd" />
+    <File name="./ReportElements.cs" subtype="Code" buildaction="Compile" />
+    <File name="./Web.config" subtype="Code" buildaction="Exclude" />
+  </Contents>
+  <References>
+    <ProjectReference type="Gac" localcopy="True" refto="System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <ProjectReference type="Gac" localcopy="True" refto="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <ProjectReference type="Gac" localcopy="True" refto="System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <ProjectReference type="Gac" localcopy="True" refto="System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <ProjectReference type="Gac" localcopy="True" refto="System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  </References>
+</Project>
