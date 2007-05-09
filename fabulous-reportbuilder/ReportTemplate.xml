@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- This is not up to date -->
+<ReportDefinition>
+	<Title>Title</Title>
+	<Columns>
+		<Column>
+			<Name>Login</Name>
+			<Type>string</Type>
+		</Column>
+		<Column>
+			<Name>Service Type</Name>
+			<Type>string</Type>
+		</Column>
+		<Column>
+			<Name>Start Date</Name>
+			<Type>date</Type>
+		</Column>
+		<Column>
+			<Name>End Date</Name>
+			<Type>date</Type>
+		</Column>
+	</Columns>
+	<Query>
+	<![CDATA[
+	select Login,ServiceType,StartDate,EndDate
+	from ispService
+	where StartDate > '2003-02-01'
+	]]>
+	</Query>
+</ReportDefinition>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="NewDataSet" targetNamespace="urn:Fabulous/Prism/ReportBuilder" xmlns:mstns="urn:Fabulous/Prism/ReportBuilder" xmlns="urn:Fabulous/Prism/ReportBuilder" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="ReportDefinition">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Title" type="xs:string" minOccurs="0" />
+				<xs:element name="Query" type="xs:string" minOccurs="0" />
+				<xs:element name="Columns" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Item" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Name" type="xs:string" minOccurs="0" />
+										<xs:element name="Type" type="xs:string" minOccurs="0" />
+										<xs:element name="DBType" type="xs:string" minOccurs="0" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Interface" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Item" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Name" type="xs:string" minOccurs="0" />
+										<xs:element name="Type" type="xs:string" minOccurs="0" />
+										<xs:element name="DBType" type="xs:string" minOccurs="0" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
